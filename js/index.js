@@ -58,3 +58,5 @@ objTextStyle.addStyle("text-align: justify"); //додавання стилю в
 objTextStyle.deleteStyle("qwerty"); //видалення стилю з масиву стилей
 
 let strStyle = `${objWrapStyle.getCSS()} ${objBlockStyle.getCSS()} ${objImgStyle.getCSS()} ${objTextStyle.getCSS()}`;
+
+document.write(`Result: ${strStyle}`)
